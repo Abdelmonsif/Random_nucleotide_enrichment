@@ -3,7 +3,7 @@ compare nucleotide enrichment of RNA binding proteins (can be used also for CHIP
 
 A python script to create random sequences from the same transcripts and compare the sequences obtained in the SAM file with these random sequences.
 
-##SamFile:
+SamFile:
 SamFile for reads obtained in the alignment (can be either from CLIP-seq or CHIP-seq)
 
 features: a file created from USCS file and it contains the length of 5'UTR, CDS and 3'UTR of all transcripts
