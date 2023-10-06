@@ -1,4 +1,4 @@
-# Random_nucleotide_enrichment
+# Random nucleotide enrichment
 compare nucleotide enrichment of RNA binding proteins (can be used also for CHIP-seq)
 
 A python script to create random sequences from the same transcripts and compare the sequences obtained in the SAM file with these random sequences.
