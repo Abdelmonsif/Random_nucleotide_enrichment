@@ -25,4 +25,4 @@ please decompress mouse_transcripts.fa.gz first by:
 tar -xzvf mouse_transcripts.fa.gz -C data/
 
 # Usage:
-python random_enrichment.py -SamFile test.sam -features mouse_features -reall real.tab -RandomFolder test/ -transcript mouse_transcripts.fa -title test -sora sora -randomization 1000
+python scripts/random_enrichment.py -SamFile data/test.sam -features data/mouse_features -reall results/real.tab -RandomFolder test/ -transcript data/mouse_transcripts.fa -title test -sora results/sora -randomization 1000
