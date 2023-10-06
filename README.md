@@ -20,5 +20,8 @@ sora: name of the file that will encompass the figure created
 
 randomization: number of random times to be created
 
+please decompress mouse_transcripts.fa.gz first by:
+tar -xzvf mouse_transcripts.fa.gz
+
 # Usage:
 python random_enrichment.py -SamFile test.sam -features mouse_features -reall real.tab -RandomFolder test/ -transcript mouse_transcripts.fa -title test -sora sora -randomization 1000
